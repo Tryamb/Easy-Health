@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bluecard"
+                android:padding="20dp"
+                android:elevation="12dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/product_sans"
+                    android:textSize="24sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/msg_welcome"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/product_sans"
+                    android:textSize="20sp"/>
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/product_sans"
+                    android:text="About Us"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/blue"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="Category"
+                android:textColor="@color/black"
+                android:fontFamily="@font/text_font_semi_bold"
+                android:textSize="20sp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/skinCV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="20dp"
+                    android:layout_marginTop="10dp"
+                    >
+
+
+                    <LinearLayout
+                        android:id="@+id/skinDisease"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:background="@drawable/bg_icons"
+                        android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/skin"/>
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:text="Skin Disease"
+                        android:fontFamily="@font/product_sans"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/skinCV"
+                    app:cardElevation="200dp"
+                    android:layout_marginTop="10dp"
+                    >
+                    <LinearLayout
+                        android:id="@+id/mentalHealth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:background="@drawable/bg_icons"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/brain"/>
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:textAlignment="center"
+                            android:layout_marginTop="10dp"
+                            android:text="Mental Health"
+                            android:fontFamily="@font/product_sans"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Diagnose your skin"
+                android:fontFamily="@font/text_font_semi_bold"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <LinearLayout
+                android:id="@+id/skinScan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/blue_btn_style"
+                >
+<!--                <com.airbnb.lottie.LottieAnimationView-->
+<!--                    android:id="@+id/animationViewSkin"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="130dp"-->
+
+<!--                    app:lottie_autoPlay="true"-->
+<!--                    app:lottie_rawRes="@raw/skin"-->
+<!--                    app:lottie_loop="true" />-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/msg_scan_your_skin"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/app_text_font"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Try our Stress Tester"
+                android:fontFamily="@font/text_font_semi_bold"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <LinearLayout
+                android:id="@+id/testStress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/blue_btn_style"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/stress"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/stress_tester_msg"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/app_text_font"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment"
+                android:fontFamily="@font/text_font_semi_bold"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"/>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:background="@drawable/bg_icons"
+                        android:id="@+id/consultDoctor"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/consult_doctor"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginTop="10dp"
+                            android:text="Consult \n Doctor"
+                            android:fontFamily="@font/product_sans"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:background="@drawable/bg_icons"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/order_medicine"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:textAlignment="center"
+                            android:layout_marginTop="10dp"
+                            android:text="Get Medicine"
+                            android:fontFamily="@font/product_sans"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

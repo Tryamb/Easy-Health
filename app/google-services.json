@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "659931140188",
+    "project_id": "letschat-bb22d",
+    "storage_bucket": "letschat-bb22d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659931140188:android:657aa821c1623417d31699",
+        "android_client_info": {
+          "package_name": "com.tryamb.healthcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsuVMpowNRD_kkWMLwZkVLlALrstDpP9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

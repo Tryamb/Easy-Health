@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Skin n Sense</string>
+    <string name="pick_image_button">Pick an image</string>
+    <string name="take_photo_button">Take a photo</string>
+    <string name="classification_delimiter_text_view">-</string>
+    <string name="face">Face</string>
+    <string name="faceless">No face detected</string>
+    <string name="msg_welcome">"We believe that healthy skin starts with a healthy mind. By taking care of your mental health, you're also supporting your skin's natural radiance and beauty"</string>
+    <string name="stress_tester_msg">Upload your face pic in order to recognize emotions. This will help us to detect stress.</string>
+    <string name="msg_scan_your_skin">Diagnose your skin at home. If you have any skin problem or disease, it will tell highest probability diagnoses for a given skin lesion.</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short"><u>Sign in</u></string>
+    <string name="horizontal_line">-</string>
+    <string name="welcome_back"><b><u>Welcome Back</u></b></string>
+    <string name="action_sign_up_short"><u>Sign Up</u></string>
+    <string name="default_message_chat">Hello \nHow can i help you ?</string>
+
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

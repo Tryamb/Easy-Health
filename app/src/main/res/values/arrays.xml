@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time">
+        <item >Yesterday</item>
+        <item >One Week ago</item>
+        <item >One month ago</item>
+    </string-array>
+    <string-array name="emotions">
+        <item>angry</item>
+        <item>disgust</item>
+        <item>fear</item>
+        <item>happy</item>
+        <item>neutral</item>
+        <item>sad</item>
+        <item>surprise</item>
+    </string-array>
+</resources>
